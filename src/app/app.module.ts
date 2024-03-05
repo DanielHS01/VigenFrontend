@@ -2,21 +2,27 @@ import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { FaIconLibrary,  FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import {far} from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [
     provideClientHydration()
@@ -25,6 +31,6 @@ import { LoginComponent } from './login/login.component';
 })
 export class AppModule { 
   constructor(library: FaIconLibrary) {
-    library.addIconPacks(fas,far);
+    library.addIconPacks(fas, fab, far);
   }
  }

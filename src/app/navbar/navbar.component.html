@@ -1,0 +1,60 @@
+<header
+  class="block w-full bg-cyan-50 px-4 py-4 sm:flex items-center justify-between fixed top-0 z-20"
+  
+>
+  <div class="flex justify-between sm:block">
+    <img src="../../assets/VigenAzul.png" class="h-12 md:hidden" alt="" />
+    <button class="block bg-transparent sm:hidden">
+      <input class="invisible appearance-none" type="checkbox" id="toggle" />
+
+      <label for="toggle">
+        <svg
+          id="menu-icon"
+          class="cursor-pointer inline-block text-white"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="fill: #083344"
+        >
+          <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+        </svg>
+        <svg
+          id="close-icon"
+          class="hidden cursor-pointer text-white"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="fill: #083344"
+        >
+          <path
+            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+          ></path>
+        </svg>
+      </label>
+    </button>
+  </div>
+  <div
+    #linksDiv
+    id="navigation"
+    style="--menu-height: 18rem"
+    class="flex h-0 flex-col items-center gap-4 w-full justify-between overflow-hidden text-cyan-950 transition-all duration-500 ease-in-out sm:h-auto sm:flex-row sm:overflow-auto"
+  >
+    <img src="../../assets/VigenAzul.png" class="h-12 ms-20 hidden md:inline" alt="" />
+    <div
+      class="md:space-x-5 items-center flex flex-col md:flex-row text-center space-y-5 md:space-y-0 md:ms-32"
+    >
+      <a href="">Inicio</a>
+      <a href="">Sobre Nosotros</a>
+      <a href="">Ayuda</a>
+    </div>
+    <div
+      class="flex flex-col md:flex-row md:space-x-5 items-center space-y-5 md:space-y-0"
+    >
+      <fa-icon style="color: black" [icon]="['fas', 'globe']"></fa-icon>
+      <button class="border border-cyan-950 px-6 py-2 rounded-md">Registro</button>
+      <button class="bg-cyan-950 px-8 py-2 rounded-md text-white">Inicio</button>
+    </div>
+  </div>
+</header>

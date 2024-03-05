@@ -6,12 +6,14 @@ import {far} from '@fortawesome/free-regular-svg-icons';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
+import { RolesComponent } from './roles/roles.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    RolesComponent,
   ],
   imports: [
     BrowserModule,

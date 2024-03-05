@@ -22,24 +22,28 @@
       <p
         (click)="selectContent('Contenido 1', 0)"
         [ngClass]="{ underline: selectedIndex === 0 }"
+        class="cursor-pointer"
       >
         ¿Qué es?
       </p>
       <p
         (click)="selectContent('Contenido 2', 1)"
         [ngClass]="{ underline: selectedIndex === 1 }"
+        class="cursor-pointer"
       >
         Tipos de Violencia
       </p>
       <p
         (click)="selectContent('Contenido 3', 2)"
         [ngClass]="{ underline: selectedIndex === 2 }"
+        class="cursor-pointer"
       >
         ¿Dónde denunciar?
       </p>
       <p
         (click)="selectContent('Contenido 4', 3)"
         [ngClass]="{ underline: selectedIndex === 3 }"
+        class="cursor-pointer"
       >
         Preguntas Frecuentes
       </p>
@@ -113,7 +117,7 @@
     </div>
   </div>
   <!--Sección Sobre Nosotros-->
-  <div class="bg-indigo-100 py-16 px-32 relative bottom-12">
+  <div class="bg-indigo-100 py-16 px-32 relative">
     <h3 class="text-3xl">Sobre Nosotros</h3>
     <div
       class="flex flex-col space-y-5 md:space-y-0 md:flex-row pt-10 justify-between"

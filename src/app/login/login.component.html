@@ -1,0 +1,42 @@
+<div class="bg-cyan-50 flex justify-center p-10">
+    <div class="bg-cyan-950 flex rounded-xl justify-center p-4">
+        <div class="bg-black bg-opacity-50 flex flex-col rounded-xl text-white justify-center p-4">
+            <div class="flex justify-center">
+                <div class="relative bottom-14 bg-cyan-950 rounded-full flex justify-center w-16 h-16 items-center">
+                    <fa-icon class="scale-[3]" style="color: white" [icon]="['far', 'circle-user']" ></fa-icon>
+                </div>
+            </div>
+            <div>
+                <p class="text-center text-xs font-semibold lg:text-sm">
+                  INICIAR SESIÓN
+                </p>
+              </div>
+              <div class="flex w-full space-x-2 pb-7 pt-12 lg:justify-evenly lg:space-x-5">
+                <p class="text-[0.55rem] font-thin lg:text-xs">No tienes una cuenta?</p>
+                <a class="text-[0.55rem] font-bold lg:text-xs" href="#">
+                  CREAR CUENTA
+                </a>
+              </div>
+            <form action="" class="flex flex-col items-center justify-center">
+                <div class="w-full lg:w-80">
+                  <p class="text-xs font-semibold">Usuario</p>
+                  <input
+                    class="focus:shadow-outline mb-3 w-full appearance-none rounded-md border border-white px-3 py-1 leading-tight text-gray-700 shadow focus:outline-none"
+                    type="text"
+                  />
+                </div>
+                <div class="w-full lg:w-80">
+                  <p class="mt-2 text-xs font-semibold">Contraseña</p>
+                  <input
+                    class="focus:shadow-outline mb-3 w-full appearance-none rounded-md border border-red-500 px-3 py-1 leading-tight text-gray-700 shadow focus:outline-none"
+                    type="password"
+                  />
+                </div>
+                <button class="mt-5 border border-white rounded-md px-5 py-1 text-xs font-bold tracking-widest text-white">
+                  INGRESAR
+                </button>
+              </form>
+            <p class="flex justify-center mt-4 text-xs font-thin text-white hover:underline lg:justify-end lg:text-end">Olvidé mi contraseña</p>
+        </div>
+    </div>
+</div>

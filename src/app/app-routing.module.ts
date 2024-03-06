@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
 import { RegistroOrganizacionComponent } from './registro-organizacion/registro-organizacion.component';
 import { InformacionUsuarioComponent } from './informacion-usuario/informacion-usuario.component';
+import { InformacionOrganizacionComponent } from './informacion-organizacion/informacion-organizacion.component';
 import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'registroOrganizacion', component: RegistroOrganizacionComponent,},
   {path: 'informacionUsuario', component: InformacionUsuarioComponent,},
   {path: 'homeOrganizacion', component: HomeOrganizacionComponent,},
+  {path: 'informacionOrganizacion', component: InformacionOrganizacionComponent,},
 ];
 
 @NgModule({

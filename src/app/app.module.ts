@@ -13,6 +13,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { LoginComponent } from './login/login.component';
 import { RolesComponent } from './roles/roles.component';
 import { RegistroOrganizacionComponent } from './registro-organizacion/registro-organizacion.component';
+import { RegistroSedesComponent } from './registro-sedes/registro-sedes.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegistroOrganizacionComponent } from './registro-organizacion/registro-
     HomeComponent,
     AboutUsComponent,
     LoginComponent,
-    RegistroOrganizacionComponent
+    RegistroOrganizacionComponent,
+    RegistroSedesComponent
   ],
   imports: [
     BrowserModule,

@@ -16,6 +16,7 @@ import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.co
 import { RegistroOrganizacionComponent } from './registro-organizacion/registro-organizacion.component';
 import { RegistroSedesComponent } from './registro-sedes/registro-sedes.component';
 import { InformacionUsuarioComponent } from './informacion-usuario/informacion-usuario.component';
+import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { InformacionUsuarioComponent } from './informacion-usuario/informacion-u
     RegistroSedesComponent,
     RegistroUsuarioComponent,
     InformacionUsuarioComponent,
+    HomeOrganizacionComponent,
   ],
   imports: [
     BrowserModule,

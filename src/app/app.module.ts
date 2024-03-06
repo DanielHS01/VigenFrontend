@@ -18,6 +18,7 @@ import { RegistroSedesComponent } from './registro-sedes/registro-sedes.componen
 import { AyudaComponent } from './ayuda/ayuda.component';
 import { InformacionUsuarioComponent } from './informacion-usuario/informacion-usuario.component';
 import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
+import { InformacionOrganizacionComponent } from './informacion-organizacion/informacion-organizacion.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion
     AyudaComponent,
     InformacionUsuarioComponent,
     HomeOrganizacionComponent,
+    InformacionOrganizacionComponent,
   ],
   imports: [
     BrowserModule,

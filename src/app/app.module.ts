@@ -15,6 +15,7 @@ import { RolesComponent } from './roles/roles.component';
 import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.component';
 import { RegistroOrganizacionComponent } from './registro-organizacion/registro-organizacion.component';
 import { RegistroSedesComponent } from './registro-sedes/registro-sedes.component';
+import { AyudaComponent } from './ayuda/ayuda.component';
 import { InformacionUsuarioComponent } from './informacion-usuario/informacion-usuario.component';
 import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
 
@@ -31,6 +32,7 @@ import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion
     RegistroOrganizacionComponent,
     RegistroSedesComponent,
     RegistroUsuarioComponent,
+    AyudaComponent,
     InformacionUsuarioComponent,
     HomeOrganizacionComponent,
   ],

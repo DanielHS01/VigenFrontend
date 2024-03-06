@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { LoginComponent } from './login/login.component';
 import { RolesComponent } from './roles/roles.component';
+import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.component';
 import { RegistroOrganizacionComponent } from './registro-organizacion/registro-organizacion.component';
 import { RegistroSedesComponent } from './registro-sedes/registro-sedes.component';
 
@@ -26,7 +27,8 @@ import { RegistroSedesComponent } from './registro-sedes/registro-sedes.componen
     AboutUsComponent,
     LoginComponent,
     RegistroOrganizacionComponent,
-    RegistroSedesComponent
+    RegistroSedesComponent,
+    RegistroUsuarioComponent,
   ],
   imports: [
     BrowserModule,

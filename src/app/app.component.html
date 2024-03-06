@@ -1,7 +1,10 @@
-<app-navbar />
-<app-about-us />
-<app-footer />
-<fa-icon style="color: black" [icon]="['fas', 'globe-americas']"></fa-icon>
-<app-login></app-login>
-<app-roles></app-roles>
-<router-outlet></router-outlet>
+<header>
+    <nav>
+      <app-navbar></app-navbar>
+    </nav>
+  </header>
+  <section>
+      <router-outlet></router-outlet>
+      
+      <app-footer></app-footer>
+  </section>

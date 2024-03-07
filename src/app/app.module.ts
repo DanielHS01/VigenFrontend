@@ -19,6 +19,7 @@ import { AyudaComponent } from './ayuda/ayuda.component';
 import { InformacionUsuarioComponent } from './informacion-usuario/informacion-usuario.component';
 import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
 import { InformacionOrganizacionComponent } from './informacion-organizacion/informacion-organizacion.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { InformacionOrganizacionComponent } from './informacion-organizacion/inf
     InformacionUsuarioComponent,
     HomeOrganizacionComponent,
     InformacionOrganizacionComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,

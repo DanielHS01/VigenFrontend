@@ -10,6 +10,7 @@ import { RegistroOrganizacionComponent } from './registro-organizacion/registro-
 import { InformacionUsuarioComponent } from './informacion-usuario/informacion-usuario.component';
 import { InformacionOrganizacionComponent } from './informacion-organizacion/informacion-organizacion.component';
 import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
 
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'informacionUsuario', component: InformacionUsuarioComponent,},
   {path: 'homeOrganizacion', component: HomeOrganizacionComponent,},
   {path: 'informacionOrganizacion', component: InformacionOrganizacionComponent,},
+  {path: 'forms', component: FormComponent,},
 ];
 
 @NgModule({

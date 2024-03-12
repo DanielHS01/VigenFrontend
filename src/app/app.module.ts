@@ -20,6 +20,7 @@ import { InformacionUsuarioComponent } from './informacion-usuario/informacion-u
 import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
 import { InformacionOrganizacionComponent } from './informacion-organizacion/informacion-organizacion.component';
 import { FormComponent } from './form/form.component';
+import { initFlowbite } from 'flowbite';
 
 @NgModule({
   declarations: [
@@ -53,5 +54,8 @@ import { FormComponent } from './form/form.component';
 export class AppModule { 
   constructor(library: FaIconLibrary) {
     library.addIconPacks(fas, fab, far);
+  }
+  ngOnInit(): void {
+    initFlowbite();
   }
  }

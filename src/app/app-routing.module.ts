@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.component';
 import { LoginComponent } from './login/login.component';
 import { RolesComponent } from './roles/roles.component';
@@ -11,6 +11,10 @@ import { InformacionUsuarioComponent } from './informacion-usuario/informacion-u
 import { InformacionOrganizacionComponent } from './informacion-organizacion/informacion-organizacion.component';
 import { HomeOrganizacionComponent } from './home-organizacion/home-organizacion.component';
 import { FormComponent } from './form/form.component';
+
+const extraOptions: ExtraOptions = {
+  scrollPositionRestoration: 'enabled',
+};
 
 const routes: Routes = [
 
@@ -29,7 +33,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, extraOptions)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+  ngOnInit(): void {
+    const routing = RouterModule.forRoot(routes, { scrollOffset: [0, 0], scrollPositionRestoration: 'top' });
+  }
+ }
